@@ -1,0 +1,319 @@
+\hypertarget{namespacevegra}{}\section{vegra Namespace Reference}
+\label{namespacevegra}\index{vegra@{vegra}}
+
+
+namespace vegra  
+
+
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacevegra_1_1attr}{attr}}
+\end{DoxyCompactItemize}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1Center}{Center}}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1Circle}{Circle}}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1Fill}{Fill}}
+\begin{DoxyCompactList}\small\item\em Attribute control fill inside the svg element. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structvegra_1_1InvalidAttribException}{Invalid\+Attrib\+Exception}}
+\begin{DoxyCompactList}\small\item\em Invalid attrib exception -\/ Throw when invalid attribute is passed to a function. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structvegra_1_1InvalidParamException}{Invalid\+Param\+Exception}}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1InvalidTypeException}{Invalid\+Type\+Exception}}
+\begin{DoxyCompactList}\small\item\em Invalid Type Exception -\/ Throw when a non svg type is passed. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structvegra_1_1Position}{Position}}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1Radius}{Radius}}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1Rect}{Rect}}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1Size}{Size}}
+\item 
+struct \mbox{\hyperlink{structvegra_1_1Stroke}{Stroke}}
+\begin{DoxyCompactList}\small\item\em Attribute to outline the element. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structvegra_1_1SVG}{S\+VG}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structvegra_1_1SVG}{S\+VG}} element. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structvegra_1_1SVGElement}{S\+V\+G\+Element}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structvegra_1_1SVGElement}{S\+V\+G\+Element}} -\/ Parent class for all svg elements. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structvegra_1_1VegraException}{Vegra\+Exception}}
+\begin{DoxyCompactList}\small\item\em Base Exception. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{namespacevegra_a2722f5eceb74f65746a02a57b71d125e}{S\+V\+G\+Element\+List}} = std\+::vector$<$ \mbox{\hyperlink{structvegra_1_1SVGElement}{vegra\+::\+S\+V\+G\+Element}} $\ast$ $>$
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876b}{Font\+Family}} \{ \newline
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba6fbda3a3567da6d01bc9da915e91d702}{Font\+Family\+::\+Arial}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba9b846c60f2b2d24b350f55077e4dd894}{Font\+Family\+::\+Helvetica}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876babf103d5f351643099afbb4cc28ba9946}{Font\+Family\+::\+Times\+New\+Roman}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876bab3ac111fd7521343dd1a3fabce8279c2}{Font\+Family\+::\+Times}}, 
+\newline
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba96e248eff9ac321d7f79d2cdb142f49c}{Font\+Family\+::\+Courier\+New}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba5055d1a4444c630d6839f48ab48aef91}{Font\+Family\+::\+Courier}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba207c321933d5e7273bf3defb9eca01af}{Font\+Family\+::\+Verdana}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876baeada819634d0164c6a7547bdcc405033}{Font\+Family\+::\+Georgia}}, 
+\newline
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba3dbbdc472c939827d1aa5e8c51f7aa85}{Font\+Family\+::\+Palatino}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba96a7872564f8ba8cb1d2975a13bde360}{Font\+Family\+::\+Garamond}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba3919198dda599c06f83ad77a698598ce}{Font\+Family\+::\+Bookman}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba7162619c10d2933c5dd5afa5c8012b8b}{Font\+Family\+::\+Comic\+Sans\+MS}}, 
+\newline
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba59b2d6b423cfc293af6522c3d2806199}{Font\+Family\+::\+Trebuchet\+MS}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba90c2472318c987dd8c65516ce3b7a614}{Font\+Family\+::\+Arial\+Black}}, 
+\mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba21f59b54f62b5b8b4bc0f63f0f617fc1}{Font\+Family\+::\+Impact}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeration of Web Safe Font Family. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{namespacevegra_a776f7d3c50693931a482a34284b43ede}{to\+\_\+string}} (const \mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876b}{vegra\+::\+Font\+Family}} \&font\+Family)
+\begin{DoxyCompactList}\small\item\em Function to convert given Font Family from enum type to string type. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespacevegra_a35980cba2dab0fb1d1e3154dfa23cbfc}{Q\+U\+O\+TE}} (std\+::string value)
+\begin{DoxyCompactList}\small\item\em utility wrapper functions \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespacevegra_ad53777752123522d1807f483fa01c0a5}{W\+R\+AP}} (std\+::string value)
+\begin{DoxyCompactList}\small\item\em T\+O\+D\+O(raghu)\+: Change to std\+::quoted if compiler is c++14 compliant. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespacevegra_a46b18aa974bf220f63e7d00163eb549a}{M\+U\+L\+T\+I\+\_\+\+W\+R\+AP}} (std\+::string tagname, std\+::string self, \mbox{\hyperlink{namespacevegra_a2722f5eceb74f65746a02a57b71d125e}{S\+V\+G\+Element\+List}} elements)
+\begin{DoxyCompactList}\small\item\em Wrap element with opening and closing tag, only with attributes. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespacevegra_a4893502d3540c9e206e49072ffaa4316}{A\+S\+S\+I\+GN}} (std\+::string attr, std\+::string value)
+\item 
+std\+::string \mbox{\hyperlink{namespacevegra_ac0412cf8d762772ec0857239d5d47eb3}{S\+TR}} (int value)
+\begin{DoxyCompactList}\small\item\em convert all non string values to string type \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespacevegra_a5365ef337b0b536116d63a2352fd903d}{S\+TR}} (std\+::pair$<$ int, int $>$ value)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_a490ca2f98836fa22a92f9e141cc7ab1e}{S\+P\+A\+CE}} = \char`\"{} \char`\"{}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_adc1a2a72f90b97032bad20408a31dfb5}{E\+Q\+U\+A\+LS}} = \char`\"{}=\char`\"{}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_a6497d9c2bf3f1c7851bb59fd5af18ec2}{O\+T\+AG}} = \char`\"{}$<$\char`\"{}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_a9acf42016e6b9b201f6894fc1816240d}{C\+T\+AG}} = \char`\"{}$>$\char`\"{}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_abecfb0297d777200fecd622c806fd4a2}{F\+S\+L\+A\+SH}} = \char`\"{}/\char`\"{}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_ab1b1502dc2e3ca49f55d674d8b669301}{D\+Q\+U\+O\+TE}} = \char`\"{}\textbackslash{}\char`\"{}\char`\"{}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_aa1c954f0d9675c3c30a64de7b8bafdc2}{C\+O\+M\+MA}} = \char`\"{},\char`\"{}
+\item 
+const std\+::string \mbox{\hyperlink{namespacevegra_a85bf5beb5ac2df54e14ee7cd075c17e7}{E\+X\+T\+E\+N\+S\+I\+ON}} = \char`\"{}.svg\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+namespace vegra 
+
+\begin{DoxyAuthor}{Author}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{namespacevegra_a2722f5eceb74f65746a02a57b71d125e}\label{namespacevegra_a2722f5eceb74f65746a02a57b71d125e}} 
+\index{vegra@{vegra}!S\+V\+G\+Element\+List@{S\+V\+G\+Element\+List}}
+\index{S\+V\+G\+Element\+List@{S\+V\+G\+Element\+List}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{S\+V\+G\+Element\+List}{SVGElementList}}
+{\footnotesize\ttfamily typedef std\+::vector$<$ \mbox{\hyperlink{structvegra_1_1SVGElement}{vegra\+::\+S\+V\+G\+Element}} $\ast$ $>$ \mbox{\hyperlink{namespacevegra_a2722f5eceb74f65746a02a57b71d125e}{vegra\+::\+S\+V\+G\+Element\+List}}}
+
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876b}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876b}} 
+\index{vegra@{vegra}!Font\+Family@{Font\+Family}}
+\index{Font\+Family@{Font\+Family}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{Font\+Family}{FontFamily}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876b}{vegra\+::\+Font\+Family}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Enumeration of Web Safe Font Family. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Arial@{Arial}!vegra@{vegra}}\index{vegra@{vegra}!Arial@{Arial}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba6fbda3a3567da6d01bc9da915e91d702}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba6fbda3a3567da6d01bc9da915e91d702}} 
+Arial&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Helvetica@{Helvetica}!vegra@{vegra}}\index{vegra@{vegra}!Helvetica@{Helvetica}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba9b846c60f2b2d24b350f55077e4dd894}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba9b846c60f2b2d24b350f55077e4dd894}} 
+Helvetica&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Times\+New\+Roman@{Times\+New\+Roman}!vegra@{vegra}}\index{vegra@{vegra}!Times\+New\+Roman@{Times\+New\+Roman}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876babf103d5f351643099afbb4cc28ba9946}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876babf103d5f351643099afbb4cc28ba9946}} 
+Times\+New\+Roman&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Times@{Times}!vegra@{vegra}}\index{vegra@{vegra}!Times@{Times}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876bab3ac111fd7521343dd1a3fabce8279c2}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876bab3ac111fd7521343dd1a3fabce8279c2}} 
+Times&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Courier\+New@{Courier\+New}!vegra@{vegra}}\index{vegra@{vegra}!Courier\+New@{Courier\+New}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba96e248eff9ac321d7f79d2cdb142f49c}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba96e248eff9ac321d7f79d2cdb142f49c}} 
+Courier\+New&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Courier@{Courier}!vegra@{vegra}}\index{vegra@{vegra}!Courier@{Courier}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba5055d1a4444c630d6839f48ab48aef91}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba5055d1a4444c630d6839f48ab48aef91}} 
+Courier&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Verdana@{Verdana}!vegra@{vegra}}\index{vegra@{vegra}!Verdana@{Verdana}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba207c321933d5e7273bf3defb9eca01af}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba207c321933d5e7273bf3defb9eca01af}} 
+Verdana&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Georgia@{Georgia}!vegra@{vegra}}\index{vegra@{vegra}!Georgia@{Georgia}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876baeada819634d0164c6a7547bdcc405033}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876baeada819634d0164c6a7547bdcc405033}} 
+Georgia&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Palatino@{Palatino}!vegra@{vegra}}\index{vegra@{vegra}!Palatino@{Palatino}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba3dbbdc472c939827d1aa5e8c51f7aa85}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba3dbbdc472c939827d1aa5e8c51f7aa85}} 
+Palatino&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Garamond@{Garamond}!vegra@{vegra}}\index{vegra@{vegra}!Garamond@{Garamond}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba96a7872564f8ba8cb1d2975a13bde360}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba96a7872564f8ba8cb1d2975a13bde360}} 
+Garamond&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Bookman@{Bookman}!vegra@{vegra}}\index{vegra@{vegra}!Bookman@{Bookman}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba3919198dda599c06f83ad77a698598ce}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba3919198dda599c06f83ad77a698598ce}} 
+Bookman&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Comic\+Sans\+MS@{Comic\+Sans\+MS}!vegra@{vegra}}\index{vegra@{vegra}!Comic\+Sans\+MS@{Comic\+Sans\+MS}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba7162619c10d2933c5dd5afa5c8012b8b}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba7162619c10d2933c5dd5afa5c8012b8b}} 
+Comic\+Sans\+MS&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Trebuchet\+MS@{Trebuchet\+MS}!vegra@{vegra}}\index{vegra@{vegra}!Trebuchet\+MS@{Trebuchet\+MS}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba59b2d6b423cfc293af6522c3d2806199}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba59b2d6b423cfc293af6522c3d2806199}} 
+Trebuchet\+MS&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Arial\+Black@{Arial\+Black}!vegra@{vegra}}\index{vegra@{vegra}!Arial\+Black@{Arial\+Black}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba90c2472318c987dd8c65516ce3b7a614}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba90c2472318c987dd8c65516ce3b7a614}} 
+Arial\+Black&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Impact@{Impact}!vegra@{vegra}}\index{vegra@{vegra}!Impact@{Impact}}}\mbox{\Hypertarget{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba21f59b54f62b5b8b4bc0f63f0f617fc1}\label{namespacevegra_a342c4e8c946c4f729d694257d1ed876ba21f59b54f62b5b8b4bc0f63f0f617fc1}} 
+Impact&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacevegra_a4893502d3540c9e206e49072ffaa4316}\label{namespacevegra_a4893502d3540c9e206e49072ffaa4316}} 
+\index{vegra@{vegra}!A\+S\+S\+I\+GN@{A\+S\+S\+I\+GN}}
+\index{A\+S\+S\+I\+GN@{A\+S\+S\+I\+GN}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{A\+S\+S\+I\+G\+N()}{ASSIGN()}}
+{\footnotesize\ttfamily std\+::string vegra\+::\+A\+S\+S\+I\+GN (\begin{DoxyParamCaption}\item[{std\+::string}]{attr,  }\item[{std\+::string}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacevegra_a46b18aa974bf220f63e7d00163eb549a}\label{namespacevegra_a46b18aa974bf220f63e7d00163eb549a}} 
+\index{vegra@{vegra}!M\+U\+L\+T\+I\+\_\+\+W\+R\+AP@{M\+U\+L\+T\+I\+\_\+\+W\+R\+AP}}
+\index{M\+U\+L\+T\+I\+\_\+\+W\+R\+AP@{M\+U\+L\+T\+I\+\_\+\+W\+R\+AP}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{M\+U\+L\+T\+I\+\_\+\+W\+R\+A\+P()}{MULTI\_WRAP()}}
+{\footnotesize\ttfamily std\+::string vegra\+::\+M\+U\+L\+T\+I\+\_\+\+W\+R\+AP (\begin{DoxyParamCaption}\item[{std\+::string}]{tagname,  }\item[{std\+::string}]{self,  }\item[{\mbox{\hyperlink{namespacevegra_a2722f5eceb74f65746a02a57b71d125e}{S\+V\+G\+Element\+List}}}]{elements }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Wrap element with opening and closing tag, only with attributes. 
+
+\mbox{\Hypertarget{namespacevegra_a35980cba2dab0fb1d1e3154dfa23cbfc}\label{namespacevegra_a35980cba2dab0fb1d1e3154dfa23cbfc}} 
+\index{vegra@{vegra}!Q\+U\+O\+TE@{Q\+U\+O\+TE}}
+\index{Q\+U\+O\+TE@{Q\+U\+O\+TE}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{Q\+U\+O\+T\+E()}{QUOTE()}}
+{\footnotesize\ttfamily std\+::string vegra\+::\+Q\+U\+O\+TE (\begin{DoxyParamCaption}\item[{std\+::string}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+utility wrapper functions 
+
+\mbox{\Hypertarget{namespacevegra_ac0412cf8d762772ec0857239d5d47eb3}\label{namespacevegra_ac0412cf8d762772ec0857239d5d47eb3}} 
+\index{vegra@{vegra}!S\+TR@{S\+TR}}
+\index{S\+TR@{S\+TR}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{S\+T\+R()}{STR()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::string vegra\+::\+S\+TR (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+convert all non string values to string type 
+
+Form assignment expr given attribute and value \mbox{\Hypertarget{namespacevegra_a5365ef337b0b536116d63a2352fd903d}\label{namespacevegra_a5365ef337b0b536116d63a2352fd903d}} 
+\index{vegra@{vegra}!S\+TR@{S\+TR}}
+\index{S\+TR@{S\+TR}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{S\+T\+R()}{STR()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::string vegra\+::\+S\+TR (\begin{DoxyParamCaption}\item[{std\+::pair$<$ int, int $>$}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacevegra_a776f7d3c50693931a482a34284b43ede}\label{namespacevegra_a776f7d3c50693931a482a34284b43ede}} 
+\index{vegra@{vegra}!to\+\_\+string@{to\+\_\+string}}
+\index{to\+\_\+string@{to\+\_\+string}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{to\+\_\+string()}{to\_string()}}
+{\footnotesize\ttfamily std\+::string vegra\+::to\+\_\+string (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespacevegra_a342c4e8c946c4f729d694257d1ed876b}{vegra\+::\+Font\+Family}} \&}]{font\+Family }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Function to convert given Font Family from enum type to string type. 
+
+\mbox{\Hypertarget{namespacevegra_ad53777752123522d1807f483fa01c0a5}\label{namespacevegra_ad53777752123522d1807f483fa01c0a5}} 
+\index{vegra@{vegra}!W\+R\+AP@{W\+R\+AP}}
+\index{W\+R\+AP@{W\+R\+AP}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{W\+R\+A\+P()}{WRAP()}}
+{\footnotesize\ttfamily std\+::string vegra\+::\+W\+R\+AP (\begin{DoxyParamCaption}\item[{std\+::string}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+T\+O\+D\+O(raghu)\+: Change to std\+::quoted if compiler is c++14 compliant. 
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespacevegra_aa1c954f0d9675c3c30a64de7b8bafdc2}\label{namespacevegra_aa1c954f0d9675c3c30a64de7b8bafdc2}} 
+\index{vegra@{vegra}!C\+O\+M\+MA@{C\+O\+M\+MA}}
+\index{C\+O\+M\+MA@{C\+O\+M\+MA}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{C\+O\+M\+MA}{COMMA}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+C\+O\+M\+MA = \char`\"{},\char`\"{}}
+
+\mbox{\Hypertarget{namespacevegra_a9acf42016e6b9b201f6894fc1816240d}\label{namespacevegra_a9acf42016e6b9b201f6894fc1816240d}} 
+\index{vegra@{vegra}!C\+T\+AG@{C\+T\+AG}}
+\index{C\+T\+AG@{C\+T\+AG}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{C\+T\+AG}{CTAG}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+C\+T\+AG = \char`\"{}$>$\char`\"{}}
+
+\mbox{\Hypertarget{namespacevegra_ab1b1502dc2e3ca49f55d674d8b669301}\label{namespacevegra_ab1b1502dc2e3ca49f55d674d8b669301}} 
+\index{vegra@{vegra}!D\+Q\+U\+O\+TE@{D\+Q\+U\+O\+TE}}
+\index{D\+Q\+U\+O\+TE@{D\+Q\+U\+O\+TE}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{D\+Q\+U\+O\+TE}{DQUOTE}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+D\+Q\+U\+O\+TE = \char`\"{}\textbackslash{}\char`\"{}\char`\"{}}
+
+\mbox{\Hypertarget{namespacevegra_adc1a2a72f90b97032bad20408a31dfb5}\label{namespacevegra_adc1a2a72f90b97032bad20408a31dfb5}} 
+\index{vegra@{vegra}!E\+Q\+U\+A\+LS@{E\+Q\+U\+A\+LS}}
+\index{E\+Q\+U\+A\+LS@{E\+Q\+U\+A\+LS}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{E\+Q\+U\+A\+LS}{EQUALS}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+E\+Q\+U\+A\+LS = \char`\"{}=\char`\"{}}
+
+\mbox{\Hypertarget{namespacevegra_a85bf5beb5ac2df54e14ee7cd075c17e7}\label{namespacevegra_a85bf5beb5ac2df54e14ee7cd075c17e7}} 
+\index{vegra@{vegra}!E\+X\+T\+E\+N\+S\+I\+ON@{E\+X\+T\+E\+N\+S\+I\+ON}}
+\index{E\+X\+T\+E\+N\+S\+I\+ON@{E\+X\+T\+E\+N\+S\+I\+ON}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{E\+X\+T\+E\+N\+S\+I\+ON}{EXTENSION}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+E\+X\+T\+E\+N\+S\+I\+ON = \char`\"{}.svg\char`\"{}}
+
+\mbox{\Hypertarget{namespacevegra_abecfb0297d777200fecd622c806fd4a2}\label{namespacevegra_abecfb0297d777200fecd622c806fd4a2}} 
+\index{vegra@{vegra}!F\+S\+L\+A\+SH@{F\+S\+L\+A\+SH}}
+\index{F\+S\+L\+A\+SH@{F\+S\+L\+A\+SH}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{F\+S\+L\+A\+SH}{FSLASH}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+F\+S\+L\+A\+SH = \char`\"{}/\char`\"{}}
+
+\mbox{\Hypertarget{namespacevegra_a6497d9c2bf3f1c7851bb59fd5af18ec2}\label{namespacevegra_a6497d9c2bf3f1c7851bb59fd5af18ec2}} 
+\index{vegra@{vegra}!O\+T\+AG@{O\+T\+AG}}
+\index{O\+T\+AG@{O\+T\+AG}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{O\+T\+AG}{OTAG}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+O\+T\+AG = \char`\"{}$<$\char`\"{}}
+
+\mbox{\Hypertarget{namespacevegra_a490ca2f98836fa22a92f9e141cc7ab1e}\label{namespacevegra_a490ca2f98836fa22a92f9e141cc7ab1e}} 
+\index{vegra@{vegra}!S\+P\+A\+CE@{S\+P\+A\+CE}}
+\index{S\+P\+A\+CE@{S\+P\+A\+CE}!vegra@{vegra}}
+\subsubsection{\texorpdfstring{S\+P\+A\+CE}{SPACE}}
+{\footnotesize\ttfamily const std\+::string vegra\+::\+S\+P\+A\+CE = \char`\"{} \char`\"{}}
+

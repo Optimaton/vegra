@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['savesvg',['saveSVG',['../structvegra_1_1SVG.html#a739917fb674392c8a92ce56c609daf9c',1,'vegra::SVG']]],
+  ['setcenter',['setCenter',['../structvegra_1_1Center.html#af3a177676cb43cfe8a9ad3f2a7f8b1ed',1,'vegra::Center::setCenter()'],['../structvegra_1_1Circle.html#a25017785ce433a356b6b15b5d2d36060',1,'vegra::Circle::setCenter()']]],
+  ['setcolor',['setColor',['../structvegra_1_1Stroke.html#a8404fd7b631e78bfb3021f026abbcc10',1,'vegra::Stroke::setColor()'],['../structvegra_1_1Fill.html#ab05e35510d4dfec3455cb537ab5bc227',1,'vegra::Fill::setColor()']]],
+  ['setcx',['setCX',['../structvegra_1_1Center.html#a89d748223c30728ca26907a974ba1a90',1,'vegra::Center']]],
+  ['setcy',['setCY',['../structvegra_1_1Center.html#a0d726648f4ab1ea9bbcbd43ee0248e52',1,'vegra::Center']]],
+  ['setdasharray',['setDashArray',['../structvegra_1_1Stroke.html#a440e67289da779bb73144d7b4a73a6f3',1,'vegra::Stroke']]],
+  ['setdashoffset',['setDashOffset',['../structvegra_1_1Stroke.html#ae4581f2780ef60bdebc0af0d575c8c63',1,'vegra::Stroke']]],
+  ['setfill',['setFill',['../structvegra_1_1Circle.html#a3a5d0f5879eb8ecba92782670dc386b4',1,'vegra::Circle::setFill()'],['../structvegra_1_1Rect.html#a42038bb978010d425ac7418bb5ca8c43',1,'vegra::Rect::setFill()']]],
+  ['setheight',['setHeight',['../structvegra_1_1Size.html#a92f779e3bcaae71cc2f80d3a87506a30',1,'vegra::Size']]],
+  ['setlinecap',['setLinecap',['../structvegra_1_1Stroke.html#ac7e1d55eba440b657c5ec4d193fd8a0f',1,'vegra::Stroke']]],
+  ['setopacity',['setOpacity',['../structvegra_1_1Stroke.html#a5eae4ca7fa12a23911f7b959760f88fa',1,'vegra::Stroke::setOpacity()'],['../structvegra_1_1Fill.html#a4968a0a2cb88537a0ea6aaf6bf095ad5',1,'vegra::Fill::setOpacity()']]],
+  ['setpos',['setPos',['../structvegra_1_1Rect.html#ae4f9a214f68dd59bc5fc5fda2c746add',1,'vegra::Rect::setPos()'],['../structvegra_1_1SVG.html#a6468964d098acbdd91da3cac55e6f6b8',1,'vegra::SVG::setPos()']]],
+  ['setposition',['setPosition',['../structvegra_1_1Position.html#a6f5f33e280592cce1670b9558d24d8a8',1,'vegra::Position']]],
+  ['setradius',['setRadius',['../structvegra_1_1Radius.html#adb804ea04783e80a2aa646668018278f',1,'vegra::Radius::setRadius()'],['../structvegra_1_1Circle.html#ac6f88039c6d3f666a8156876455854d0',1,'vegra::Circle::setRadius()']]],
+  ['setsize',['setSize',['../structvegra_1_1Size.html#a7788fabbf4bc7ad2b23f5b4b113983a8',1,'vegra::Size::setSize()'],['../structvegra_1_1Rect.html#a5aae282d87d00e7912620eee07b1c588',1,'vegra::Rect::setSize()'],['../structvegra_1_1SVG.html#ad80b2990559293806eeb8223bb7a8dc4',1,'vegra::SVG::setSize()']]],
+  ['setstroke',['setStroke',['../structvegra_1_1Circle.html#a85efa989ca99a6639fe24918b19c78b3',1,'vegra::Circle::setStroke()'],['../structvegra_1_1Rect.html#a646ee5d4a13f051a08e03efcaecf8afb',1,'vegra::Rect::setStroke()']]],
+  ['setwidth',['setWidth',['../structvegra_1_1Size.html#a916716ce017fced6ec41612142289798',1,'vegra::Size::setWidth()'],['../structvegra_1_1Stroke.html#ae9aedb99ff7526cb922192b8faacd2bf',1,'vegra::Stroke::setWidth()']]],
+  ['setx',['setX',['../structvegra_1_1Position.html#a2accdc2782f0a67a529633c2c2125fe7',1,'vegra::Position']]],
+  ['sety',['setY',['../structvegra_1_1Position.html#a1930518a71651b723688490e3adbe196',1,'vegra::Position']]],
+  ['size',['Size',['../structvegra_1_1Size.html#a6d5058f3d438e24fca92f3c261ecd7a8',1,'vegra::Size::Size()'],['../structvegra_1_1Size.html#af92638bf9795f8c562cc7424f212e985',1,'vegra::Size::Size(int height, int width)']]],
+  ['str',['STR',['../namespacevegra.html#ac0412cf8d762772ec0857239d5d47eb3',1,'vegra::STR(int value)'],['../namespacevegra.html#a5365ef337b0b536116d63a2352fd903d',1,'vegra::STR(std::pair&lt; int, int &gt; value)']]],
+  ['stroke',['Stroke',['../structvegra_1_1Stroke.html#a64be83054d51672b104626cefdb303d4',1,'vegra::Stroke::Stroke()'],['../structvegra_1_1Stroke.html#a48ed9ac6ddee81297219d76534a71f8e',1,'vegra::Stroke::Stroke(std::string color, size_t width, i_pair dasharray, size_t dashoffset, std::string linecap, double opacity)']]],
+  ['svg',['SVG',['../structvegra_1_1SVG.html#a3fd44691284da36fbf659b230e870950',1,'vegra::SVG']]],
+  ['svgelement',['SVGElement',['../structvegra_1_1SVGElement.html#a08b7a1eb40780c9aec388ebd3f715e19',1,'vegra::SVGElement']]]
+];

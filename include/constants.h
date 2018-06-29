@@ -4,7 +4,7 @@
 #ifndef __CONSTANTS_H__
 #define __CONSTANTS_H__
 
-namespace vegra {
+namespace libsvg {
 
 const std::string SPACE = " ";
 const std::string EQUALS = "=";

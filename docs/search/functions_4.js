@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['invalidattribexception',['InvalidAttribException',['../structvegra_1_1InvalidAttribException.html#a919670428f8052ce5814b9665d6d9838',1,'vegra::InvalidAttribException']]],
-  ['invalidparamexception',['InvalidParamException',['../structvegra_1_1InvalidParamException.html#a53ef0c110a6dbcfacf38870798dafba5',1,'vegra::InvalidParamException']]],
-  ['invalidtypeexception',['InvalidTypeException',['../structvegra_1_1InvalidTypeException.html#a302b895279c85376f3370a6734b029f5',1,'vegra::InvalidTypeException']]]
+  ['invalidattribexception',['InvalidAttribException',['../structlibsvg_1_1InvalidAttribException.html#ae7c24e4ac21afb3885265e547a88c38d',1,'libsvg::InvalidAttribException']]],
+  ['invalidparamexception',['InvalidParamException',['../structlibsvg_1_1InvalidParamException.html#a194733a8d2743444612be2b833cdcb69',1,'libsvg::InvalidParamException']]],
+  ['invalidtypeexception',['InvalidTypeException',['../structlibsvg_1_1InvalidTypeException.html#aa5b9ba7d146ee52ee82b9a3586ed37b4',1,'libsvg::InvalidTypeException']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multi_5fwrap',['MULTI_WRAP',['../namespacevegra.html#a46b18aa974bf220f63e7d00163eb549a',1,'vegra']]]
+  ['libsvgexception',['libsvgException',['../structlibsvg_1_1libsvgException.html#a05e39f23e89631353577648709905fc6',1,'libsvg::libsvgException']]]
 ];

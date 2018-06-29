@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['center',['Center',['../structvegra_1_1Center.html#aba154fa620d3887422c314862d6d945d',1,'vegra::Center::Center()'],['../structvegra_1_1Center.html#a9431449d3f25bb9fccba76772aef273a',1,'vegra::Center::Center(int cx, int cy)']]],
-  ['checkifsvgexists',['checkIfSVGExists',['../structvegra_1_1SVG.html#a185b8b4ad59002b8fc921a288f69f9d9',1,'vegra::SVG']]],
-  ['circle',['Circle',['../structvegra_1_1Circle.html#a30b817f23ffab115eda5d1d1a36d0a9b',1,'vegra::Circle']]],
-  ['close',['close',['../structvegra_1_1SVG.html#a90d8788e7776685d3da401ce8a9a8596',1,'vegra::SVG']]],
-  ['composeelement',['composeElement',['../structvegra_1_1Circle.html#ad32a663886487547c33ebeef6449c19a',1,'vegra::Circle::composeElement()'],['../structvegra_1_1Rect.html#a2f18ab8fb102c330de2e388a4f5cb324',1,'vegra::Rect::composeElement()'],['../structvegra_1_1SVG.html#aa24a923e5c6195e143623e141ada168b',1,'vegra::SVG::composeElement()']]],
-  ['createnewtitle',['createNewTitle',['../structvegra_1_1SVG.html#a02f78ba059b1ce0e659ee368fb6a782a',1,'vegra::SVG']]]
+  ['center',['Center',['../structlibsvg_1_1Center.html#acaff5642301bc2e99124bf1d5afce89a',1,'libsvg::Center::Center()'],['../structlibsvg_1_1Center.html#a98e7e4c95bebf77c737e1b3ddf88633b',1,'libsvg::Center::Center(int cx, int cy)']]],
+  ['checkifsvgexists',['checkIfSVGExists',['../structlibsvg_1_1SVG.html#aeb14284b6027da0925e4437713ec15f5',1,'libsvg::SVG']]],
+  ['circle',['Circle',['../structlibsvg_1_1Circle.html#a0f6040f3a60ee0006f9dcdce9a354d31',1,'libsvg::Circle']]],
+  ['close',['close',['../structlibsvg_1_1SVG.html#a55aa6fca524a00b04fac9c2730dbdbd7',1,'libsvg::SVG']]],
+  ['composeelement',['composeElement',['../structlibsvg_1_1Circle.html#a15613bd23f4fe0e05a09f656f1abbd17',1,'libsvg::Circle::composeElement()'],['../structlibsvg_1_1SVG.html#a652c8b399cd215a589e02aa849668294',1,'libsvg::SVG::composeElement()'],['../structlibsvg_1_1Rect.html#a41be345308a76753c6f60fc6a556662a',1,'libsvg::Rect::composeElement()']]],
+  ['createnewtitle',['createNewTitle',['../structlibsvg_1_1SVG.html#a5fde5d6bc9b8b52edc52c0b2f47b6bc5',1,'libsvg::SVG']]]
 ];

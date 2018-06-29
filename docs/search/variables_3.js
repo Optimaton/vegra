@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fill',['fill',['../namespacevegra_1_1attr.html#a239f7c243700210a4a201335a34bcef9',1,'vegra::attr']]],
-  ['fill_5fopacity',['fill_opacity',['../namespacevegra_1_1attr.html#a9d77466dca979b9cebbcac29c4a86c28',1,'vegra::attr']]],
-  ['fslash',['FSLASH',['../namespacevegra.html#abecfb0297d777200fecd622c806fd4a2',1,'vegra']]]
+  ['fill',['fill',['../namespacelibsvg_1_1attr.html#aec37eef30d352c517f3cd63298370813',1,'libsvg::attr']]],
+  ['fill_5fopacity',['fill_opacity',['../namespacelibsvg_1_1attr.html#ac03cc7cea2ee76cfc8e19859d333d208',1,'libsvg::attr']]],
+  ['fslash',['FSLASH',['../namespacelibsvg.html#a9ebf79bd2c8284b8832c13ef4be9d826',1,'libsvg']]]
 ];

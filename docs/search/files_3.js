@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rect_2eh',['rect.h',['../rect_8h.html',1,'']]]
+  ['libsvg_2eh',['libsvg.h',['../libsvg_8h.html',1,'']]]
 ];

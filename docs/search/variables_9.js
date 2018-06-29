@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['width',['width',['../structvegra_1_1Size.html#ae71295e2c36b57cb0a71e4c4974ec753',1,'vegra::Size::width()'],['../structvegra_1_1Stroke.html#a95579e85bd704a94840674bbdee34304',1,'vegra::Stroke::width()'],['../namespacevegra_1_1attr.html#ad16d3f19ee0c2bc1624c97839c99dad6',1,'vegra::attr::width()']]]
+  ['width',['width',['../structlibsvg_1_1Size.html#a229740673974afef6029cd7542f26ec8',1,'libsvg::Size::width()'],['../structlibsvg_1_1Stroke.html#a2c76969459cebd437ba325e6e3cdeb95',1,'libsvg::Stroke::width()'],['../namespacelibsvg_1_1attr.html#afa813511fea22a3748ae088ad1f65798',1,'libsvg::attr::width()']]]
 ];

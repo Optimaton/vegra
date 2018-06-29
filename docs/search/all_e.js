@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['radius',['Radius',['../structvegra_1_1Radius.html',1,'vegra::Radius'],['../structvegra_1_1Radius.html#add86636af00229833ff068a123fba5bf',1,'vegra::Radius::radius()'],['../structvegra_1_1Radius.html#a0b547e9266dfc2e69851e53869f7569d',1,'vegra::Radius::Radius()'],['../structvegra_1_1Radius.html#ac74408bbdd81f71abdc00aaed9a5e056',1,'vegra::Radius::Radius(size_t radius)'],['../namespacevegra_1_1attr.html#abfc8a39fd1a64cddfd2e0c599154364b',1,'vegra::attr::radius()']]],
-  ['rect',['Rect',['../structvegra_1_1Rect.html',1,'vegra::Rect'],['../structvegra_1_1Rect.html#a5f7d578540b861188333858882d8fc09',1,'vegra::Rect::Rect()']]],
+  ['radius',['Radius',['../structlibsvg_1_1Radius.html',1,'libsvg::Radius'],['../structlibsvg_1_1Radius.html#ae70bd765025ec0d6267d2cb3691e2300',1,'libsvg::Radius::radius()'],['../structlibsvg_1_1Radius.html#a9705efdf443d6cde7bb0a74a63071611',1,'libsvg::Radius::Radius()'],['../structlibsvg_1_1Radius.html#ae8cbc6e7526563d07041a12a5a15d0eb',1,'libsvg::Radius::Radius(size_t radius)'],['../namespacelibsvg_1_1attr.html#adc3bcbf39e9cd47b798d11f6d4f5d0f4',1,'libsvg::attr::radius()']]],
+  ['rect',['Rect',['../structlibsvg_1_1Rect.html',1,'libsvg::Rect'],['../structlibsvg_1_1Rect.html#ab158c133b71229091db15ef7a21d70c0',1,'libsvg::Rect::Rect()']]],
   ['rect_2eh',['rect.h',['../rect_8h.html',1,'']]]
 ];

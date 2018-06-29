@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['height',['height',['../structvegra_1_1Size.html#ab88c99e72a1579a2ac00f10133c5f23d',1,'vegra::Size::height()'],['../namespacevegra_1_1attr.html#a381876de77425abfb3621bf6f1988ada',1,'vegra::attr::height()']]]
+  ['height',['height',['../structlibsvg_1_1Size.html#a7263770984a9f72333e5e9af4d00fbab',1,'libsvg::Size::height()'],['../namespacelibsvg_1_1attr.html#afce73e29d524e701200a6786ed8bc186',1,'libsvg::attr::height()']]]
 ];

@@ -5,7 +5,7 @@
 #define __ELEMENTS_H__
 #include "constants.h"
 
-namespace vegra {
+namespace libsvg {
 /// SVGElement - Parent class for all svg elements
 struct SVGElement {
  public:
@@ -19,7 +19,7 @@ struct SVGElement {
   std::string _element;
 };
 
-using SVGElementList = std::vector<vegra::SVGElement *>;
+using SVGElementList = std::vector<libsvg::SVGElement *>;
  
 /// utility wrapper functions
 inline std::string QUOTE(std::string value) {return DQUOTE + value + DQUOTE;} /// TODO(raghu): Change to std::quoted if compiler is c++14 compliant

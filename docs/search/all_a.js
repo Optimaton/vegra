@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multi_5fwrap',['MULTI_WRAP',['../namespacelibsvg.html#a1911feb0f759c5b9dab0a52df001b7e0',1,'libsvg']]]
+  ['multi_5fwrap',['MULTI_WRAP',['../namespacevegra.html#a46b18aa974bf220f63e7d00163eb549a',1,'vegra']]]
 ];

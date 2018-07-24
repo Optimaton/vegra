@@ -1,27 +1,4 @@
 var searchData=
 [
-  ['savesvg',['saveSVG',['../structlibsvg_1_1SVG.html#afea83ae70abf2b2ed337cb42d85a2bb8',1,'libsvg::SVG']]],
-  ['setcenter',['setCenter',['../structlibsvg_1_1Center.html#a866adad4faef38dab7b221014d1722fb',1,'libsvg::Center::setCenter()'],['../structlibsvg_1_1Circle.html#a229200106001ab6e42d15404523a2d12',1,'libsvg::Circle::setCenter()']]],
-  ['setcolor',['setColor',['../structlibsvg_1_1Stroke.html#a08e305cc4c3e6555bb1a7fd10c9ffef3',1,'libsvg::Stroke::setColor()'],['../structlibsvg_1_1Fill.html#a6929bb6d95c860f4fa3693f79539134a',1,'libsvg::Fill::setColor()']]],
-  ['setcx',['setCX',['../structlibsvg_1_1Center.html#a54c749da01b4a8622e7caa27eb7475a4',1,'libsvg::Center']]],
-  ['setcy',['setCY',['../structlibsvg_1_1Center.html#ab734a475f7dfbaf532940f0666f45940',1,'libsvg::Center']]],
-  ['setdasharray',['setDashArray',['../structlibsvg_1_1Stroke.html#a8fe1297a2f161e692c88664106407862',1,'libsvg::Stroke']]],
-  ['setdashoffset',['setDashOffset',['../structlibsvg_1_1Stroke.html#aa0770d0e9517befd5b8f512966989f90',1,'libsvg::Stroke']]],
-  ['setfill',['setFill',['../structlibsvg_1_1Circle.html#ab46789b439018e919bd706c27c44ae97',1,'libsvg::Circle::setFill()'],['../structlibsvg_1_1Rect.html#a1b266ffb72c65994008a0c1dfc6fb5cf',1,'libsvg::Rect::setFill()']]],
-  ['setheight',['setHeight',['../structlibsvg_1_1Size.html#ad691f3c13802b63f1917a5b4f4eade38',1,'libsvg::Size']]],
-  ['setlinecap',['setLinecap',['../structlibsvg_1_1Stroke.html#a6880e75749c1b68bb9a59110ff598cf4',1,'libsvg::Stroke']]],
-  ['setopacity',['setOpacity',['../structlibsvg_1_1Stroke.html#acf8583e737b37b8286523895bd36eab0',1,'libsvg::Stroke::setOpacity()'],['../structlibsvg_1_1Fill.html#a8241092c4aa86018cb4b9bcd172b614c',1,'libsvg::Fill::setOpacity()']]],
-  ['setpos',['setPos',['../structlibsvg_1_1SVG.html#a6652ad90ce5f49115d79b4d17164da76',1,'libsvg::SVG::setPos()'],['../structlibsvg_1_1Rect.html#a16b68443666f201211b6026073ac55ab',1,'libsvg::Rect::setPos()']]],
-  ['setposition',['setPosition',['../structlibsvg_1_1Position.html#a454f9aed42909c3dbca736d5b4b27e4c',1,'libsvg::Position']]],
-  ['setradius',['setRadius',['../structlibsvg_1_1Radius.html#aa1f2f3814e2b6aeb75346d907cf84333',1,'libsvg::Radius::setRadius()'],['../structlibsvg_1_1Circle.html#ac0ded5eac6a4e417edf8739d1902d5cf',1,'libsvg::Circle::setRadius()']]],
-  ['setsize',['setSize',['../structlibsvg_1_1Size.html#a705c64bcc0eca8f33c731a35266a11a2',1,'libsvg::Size::setSize()'],['../structlibsvg_1_1SVG.html#afc2ae1ff7de23650a7e8da1d2ef2ed40',1,'libsvg::SVG::setSize()'],['../structlibsvg_1_1Rect.html#a666dfceac4b9c143bfd8af5a758e9002',1,'libsvg::Rect::setSize()']]],
-  ['setstroke',['setStroke',['../structlibsvg_1_1Circle.html#a73ad970f6cd2d4174b97b52889b9033e',1,'libsvg::Circle::setStroke()'],['../structlibsvg_1_1Rect.html#a3f39f7bbe566ec0b2a2c1ac9d7bbda27',1,'libsvg::Rect::setStroke()']]],
-  ['setwidth',['setWidth',['../structlibsvg_1_1Size.html#ae2529c37d85d81ef18f1498ce1430348',1,'libsvg::Size::setWidth()'],['../structlibsvg_1_1Stroke.html#a9d138a680abbd8f3b05262d6dbdbcbb1',1,'libsvg::Stroke::setWidth()']]],
-  ['setx',['setX',['../structlibsvg_1_1Position.html#afc774d7bc741b4763c7ce6fb562186b5',1,'libsvg::Position']]],
-  ['sety',['setY',['../structlibsvg_1_1Position.html#af6ec17431c49fffea1a6dce206a3057f',1,'libsvg::Position']]],
-  ['size',['Size',['../structlibsvg_1_1Size.html#aba2e757835766c55b92f744495b02598',1,'libsvg::Size::Size()'],['../structlibsvg_1_1Size.html#a3db9c1e4b2b2fc9617e3834f2630b74e',1,'libsvg::Size::Size(int height, int width)']]],
-  ['str',['STR',['../namespacelibsvg.html#ab7e7e39176b51b5796a50d33f82962a8',1,'libsvg::STR(int value)'],['../namespacelibsvg.html#ad1f833f867242c1abb7c5a418f9c9ba3',1,'libsvg::STR(std::pair&lt; int, int &gt; value)']]],
-  ['stroke',['Stroke',['../structlibsvg_1_1Stroke.html#a612401d274eeb32b82dc7964cac237f4',1,'libsvg::Stroke::Stroke()'],['../structlibsvg_1_1Stroke.html#a5b92063b1ae93f8fc45b5c26f7d582a5',1,'libsvg::Stroke::Stroke(std::string color, size_t width, i_pair dasharray, size_t dashoffset, std::string linecap, double opacity)']]],
-  ['svg',['SVG',['../structlibsvg_1_1SVG.html#a64f85ea5acb7c3c292713da9bbab8f00',1,'libsvg::SVG']]],
-  ['svgelement',['SVGElement',['../structlibsvg_1_1SVGElement.html#acfe81a8588bff26c65fa03af741e926c',1,'libsvg::SVGElement']]]
+  ['to_5fstring',['to_string',['../namespacevegra.html#a776f7d3c50693931a482a34284b43ede',1,'vegra']]]
 ];

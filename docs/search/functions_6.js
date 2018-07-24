@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multi_5fwrap',['MULTI_WRAP',['../namespacelibsvg.html#a1911feb0f759c5b9dab0a52df001b7e0',1,'libsvg']]]
+  ['position',['Position',['../structvegra_1_1Position.html#af937e1b394be37468bff14e58a3e4156',1,'vegra::Position::Position()'],['../structvegra_1_1Position.html#acafc039da99be520366e838103022c0b',1,'vegra::Position::Position(int x, int y)']]]
 ];

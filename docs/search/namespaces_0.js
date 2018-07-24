@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['attr',['attr',['../namespacelibsvg_1_1attr.html',1,'libsvg']]],
-  ['libsvg',['libsvg',['../namespacelibsvg.html',1,'']]]
+  ['attr',['attr',['../namespacevegra_1_1attr.html',1,'vegra']]],
+  ['vegra',['vegra',['../namespacevegra.html',1,'']]]
 ];

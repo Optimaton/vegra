@@ -4,9 +4,9 @@
 #ifndef __CIRCLE_H__
 #define __CIRCLE_H__
 
-namespace libsvg {
+namespace vegra {
 
-using SVGElementList = std::vector<libsvg::SVGElement *>;
+using SVGElementList = std::vector<vegra::SVGElement *>;
  
 struct Circle : SVGElement {
  public:
@@ -14,13 +14,13 @@ struct Circle : SVGElement {
   {}
   inline void add();
 
-  inline void add(libsvg::SVGElement * element) 
+  inline void add(vegra::SVGElement * element) 
   {  
     _elements.push_back(element);  
   }
 
   template <typename... Args>
-  inline void add(libsvg::SVGElement* element, Args... args)
+  inline void add(vegra::SVGElement* element, Args... args)
   {
     _elements.push_back(element);
     add(args...);
@@ -28,7 +28,7 @@ struct Circle : SVGElement {
 
 inline std::string composeElement()
   {
-     using namespace libsvg;
+     using namespace vegra;
      return _tagname +
             ASSIGN(attr::cx, STR(_center.cx)) +
             ASSIGN(attr::cy, STR(_center.cy)) +
@@ -44,14 +44,14 @@ inline std::string composeElement()
   
   inline void wrapElement()
   {
-   using namespace libsvg;
+   using namespace vegra;
    if (_elements.empty())
      _element = WRAP(composeElement());
    else 
      _element = MULTI_WRAP(_tagname, composeElement(), _elements);
   }
 
-  inline void setCenter(libsvg::Center center)
+  inline void setCenter(vegra::Center center)
   {
     _center = center;
   }
@@ -61,12 +61,12 @@ inline std::string composeElement()
     _radius = radius;  
   }
 
-  inline void setStroke(libsvg::Stroke stroke)
+  inline void setStroke(vegra::Stroke stroke)
   {
     _stroke = stroke;  
   }
 
-  inline void setFill(libsvg::Fill fill)
+  inline void setFill(vegra::Fill fill)
   {
     _fill = fill;  
   }
@@ -76,21 +76,21 @@ inline std::string composeElement()
     return _elements;  
   }
   
-  inline libsvg::Center getCenter()
+  inline vegra::Center getCenter()
   {
     return _center;  
   }
 
-  inline libsvg::Radius getRadius()
+  inline vegra::Radius getRadius()
   {
     return _radius;  
   }
-  inline libsvg::Stroke getStroke()
+  inline vegra::Stroke getStroke()
   {
     return _stroke;  
   }
 
-  inline libsvg::Fill getFill()
+  inline vegra::Fill getFill()
   {
     return _fill;  
   }
@@ -101,10 +101,10 @@ inline std::string composeElement()
   }
  protected:
  private:
-  libsvg::Center _center;
-  libsvg::Radius _radius;
-  libsvg::Stroke _stroke;
-  libsvg::Fill _fill;
+  vegra::Center _center;
+  vegra::Radius _radius;
+  vegra::Stroke _stroke;
+  vegra::Fill _fill;
   SVGElementList _elements;
   std::string _element;
   std::string _tagname;

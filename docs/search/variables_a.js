@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x',['x',['../structlibsvg_1_1Position.html#ab2cce2efc8ac6b324490d7772dab7ce2',1,'libsvg::Position::x()'],['../namespacelibsvg_1_1attr.html#a63d8a96e722fc068673b38c5b5b2f1c5',1,'libsvg::attr::x()']]]
+  ['x',['x',['../structvegra_1_1Position.html#a458595c84391b5ae3bdc0c8d256706b6',1,'vegra::Position::x()'],['../namespacevegra_1_1attr.html#aad742b5d9766de5e8de120f9ec2d606c',1,'vegra::attr::x()']]]
 ];

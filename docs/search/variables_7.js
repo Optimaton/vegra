@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['radius',['radius',['../structlibsvg_1_1Radius.html#ae70bd765025ec0d6267d2cb3691e2300',1,'libsvg::Radius::radius()'],['../namespacelibsvg_1_1attr.html#adc3bcbf39e9cd47b798d11f6d4f5d0f4',1,'libsvg::attr::radius()']]]
+  ['radius',['radius',['../structvegra_1_1Radius.html#add86636af00229833ff068a123fba5bf',1,'vegra::Radius::radius()'],['../namespacevegra_1_1attr.html#abfc8a39fd1a64cddfd2e0c599154364b',1,'vegra::attr::radius()']]]
 ];

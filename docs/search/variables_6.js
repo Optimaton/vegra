@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['opacity',['opacity',['../structlibsvg_1_1Stroke.html#a47c574099bb5dc0ecfa9e2812bd3361f',1,'libsvg::Stroke::opacity()'],['../structlibsvg_1_1Fill.html#a22a51a5a0dd40d30d52a075bd6344f36',1,'libsvg::Fill::opacity()']]],
-  ['otag',['OTAG',['../namespacelibsvg.html#ac4a51c45a0a8ceb11be0143419c9257e',1,'libsvg']]]
+  ['opacity',['opacity',['../structvegra_1_1Stroke.html#a1549534821eb8e96632f405af3c59d26',1,'vegra::Stroke::opacity()'],['../structvegra_1_1Fill.html#a19afcc63bea86ccbb0eb425ca8ba3648',1,'vegra::Fill::opacity()']]],
+  ['otag',['OTAG',['../namespacevegra.html#a6497d9c2bf3f1c7851bb59fd5af18ec2',1,'vegra']]]
 ];

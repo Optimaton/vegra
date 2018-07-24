@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['space',['SPACE',['../namespacelibsvg.html#a440d4194e7f7cf9caf5a1577d4d961e5',1,'libsvg']]],
-  ['stroke',['stroke',['../namespacelibsvg_1_1attr.html#a361242a6e34aecfc4f4742865dcd3df7',1,'libsvg::attr']]],
-  ['stroke_5fdasharray',['stroke_dasharray',['../namespacelibsvg_1_1attr.html#a3ad06fc8fe1abaa0ef342330e59b0777',1,'libsvg::attr']]],
-  ['stroke_5fdashoffset',['stroke_dashoffset',['../namespacelibsvg_1_1attr.html#ab9054da3596effa31ac5a0bc3b601e5a',1,'libsvg::attr']]],
-  ['stroke_5flinecap',['stroke_linecap',['../namespacelibsvg_1_1attr.html#ab62780e83ae86baed28130eb57c0c282',1,'libsvg::attr']]],
-  ['stroke_5fopacity',['stroke_opacity',['../namespacelibsvg_1_1attr.html#ac5d72c1ad737b6d004035320a3ccebb6',1,'libsvg::attr']]],
-  ['stroke_5fwidth',['stroke_width',['../namespacelibsvg_1_1attr.html#af60eff97dd4eae0bed25c799c19bd7d4',1,'libsvg::attr']]]
+  ['space',['SPACE',['../namespacevegra.html#a490ca2f98836fa22a92f9e141cc7ab1e',1,'vegra']]],
+  ['stroke',['stroke',['../namespacevegra_1_1attr.html#a547c61d63fa7cd98b099cfddda3e900f',1,'vegra::attr']]],
+  ['stroke_5fdasharray',['stroke_dasharray',['../namespacevegra_1_1attr.html#a19195ef7c83cf394bf879490c05ff279',1,'vegra::attr']]],
+  ['stroke_5fdashoffset',['stroke_dashoffset',['../namespacevegra_1_1attr.html#a58600e14ff5c6f05ce98fb91bbd0ecb3',1,'vegra::attr']]],
+  ['stroke_5flinecap',['stroke_linecap',['../namespacevegra_1_1attr.html#a01f922256bd62abf2554d5438fda3b62',1,'vegra::attr']]],
+  ['stroke_5fopacity',['stroke_opacity',['../namespacevegra_1_1attr.html#a38bbcd92795d4200270ffb0cc654b396',1,'vegra::attr']]],
+  ['stroke_5fwidth',['stroke_width',['../namespacevegra_1_1attr.html#afaba5780f0fd064b750037b66af7d6a0',1,'vegra::attr']]]
 ];

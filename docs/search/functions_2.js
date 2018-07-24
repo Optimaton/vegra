@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fill',['Fill',['../structlibsvg_1_1Fill.html#a65d67fff889048331e315c1c2aa3c185',1,'libsvg::Fill::Fill()'],['../structlibsvg_1_1Fill.html#af3fc6d12849d2d11682ed52d9cfc64c5',1,'libsvg::Fill::Fill(std::string color, double opacity)']]]
+  ['fill',['Fill',['../structvegra_1_1Fill.html#aa305a257a120bc2f164853ff5b4f8372',1,'vegra::Fill::Fill()'],['../structvegra_1_1Fill.html#abcf0ef6c4fcf15ba55f3c3ec576dc550',1,'vegra::Fill::Fill(std::string color, double opacity)']]]
 ];

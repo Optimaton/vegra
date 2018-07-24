@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['to_5fstring',['to_string',['../namespacelibsvg.html#a2fb0dffde56ba149b4b65800081d452f',1,'libsvg']]]
+  ['vegraexception',['vegraException',['../structvegra_1_1vegraException.html#ac0f862680a4ca0812a5e30b7143f4532',1,'vegra::vegraException']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['libsvgexception',['libsvgException',['../structlibsvg_1_1libsvgException.html',1,'libsvg']]]
+  ['position',['Position',['../structvegra_1_1Position.html',1,'vegra']]]
 ];

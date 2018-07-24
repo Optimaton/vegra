@@ -1,10 +1,10 @@
 #include <iostream>
-#include "libsvg.h"
+#include "vegra.h"
 
 // TODO(raghu): Needs complete refactor
 int main()
 {
-  using namespace libsvg;
+  using namespace vegra;
   
   SVG svg;
   Position pos = {2, 3};

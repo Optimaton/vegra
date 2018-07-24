@@ -4,7 +4,7 @@
 #ifndef __ATTRIB_HPP__
 #define __ATTRIB_HPP__
 
-namespace libsvg {
+namespace vegra {
 
 /// Enumeration of Web Safe Font Family
 enum struct FontFamily {
@@ -26,24 +26,24 @@ enum struct FontFamily {
 };
 
 /// Function to convert given Font Family from enum type to string type
-inline std::string to_string(const libsvg::FontFamily& fontFamily)
+inline std::string to_string(const vegra::FontFamily& fontFamily)
 {
 	switch (fontFamily) {
-		case libsvg::FontFamily::Arial: return "Arial";
-		case libsvg::FontFamily::Helvetica: return "Helvetica";
-		case libsvg::FontFamily::TimesNewRoman: return "Times New Roman";
-		case libsvg::FontFamily::Times: return "Times";
-		case libsvg::FontFamily::CourierNew: return "Courier New";
-		case libsvg::FontFamily::Courier: return "Courier";
-		case libsvg::FontFamily::Verdana: return "Verdana";
-		case libsvg::FontFamily::Georgia: return "Georgia";
-		case libsvg::FontFamily::Palatino: return "Palatino";
-		case libsvg::FontFamily::Garamond: return "Garamond";
-		case libsvg::FontFamily::Bookman: return "Bookman";
-		case libsvg::FontFamily::ComicSansMS: return "Comic Sans MS";
-		case libsvg::FontFamily::TrebuchetMS: return "Trebuchet MS";
-		case libsvg::FontFamily::ArialBlack: return "Arial Black";
-		case libsvg::FontFamily::Impact: return "Impact";
+		case vegra::FontFamily::Arial: return "Arial";
+		case vegra::FontFamily::Helvetica: return "Helvetica";
+		case vegra::FontFamily::TimesNewRoman: return "Times New Roman";
+		case vegra::FontFamily::Times: return "Times";
+		case vegra::FontFamily::CourierNew: return "Courier New";
+		case vegra::FontFamily::Courier: return "Courier";
+		case vegra::FontFamily::Verdana: return "Verdana";
+		case vegra::FontFamily::Georgia: return "Georgia";
+		case vegra::FontFamily::Palatino: return "Palatino";
+		case vegra::FontFamily::Garamond: return "Garamond";
+		case vegra::FontFamily::Bookman: return "Bookman";
+		case vegra::FontFamily::ComicSansMS: return "Comic Sans MS";
+		case vegra::FontFamily::TrebuchetMS: return "Trebuchet MS";
+		case vegra::FontFamily::ArialBlack: return "Arial Black";
+		case vegra::FontFamily::Impact: return "Impact";
 	}
 }
 
@@ -60,18 +60,18 @@ inline std::string to_string(const libsvg::FontFamily& fontFamily)
  *  White,
  *};
  *
- *inline std::string to_string(const libsvg::Color& color)
+ *inline std::string to_string(const vegra::Color& color)
  *{ 
  *  switch (color) {
- *    case libsvg::Color::Black: return "Black";
- *    case libsvg::Color::Lime: return "Lime";
- *    case libsvg::Color::Cyan: return "Cyan";
- *    case libsvg::Color::Aqua: return "Aqua";
- *    case libsvg::Color::Red: return "Red";
- *    case libsvg::Color::Fuschia: return "Fuschia";
- *    case libsvg::Color::Magenta: return "Magenta";
- *    case libsvg::Color::Yellow: return "Yellow";
- *    case libsvg::Color::White: return "White";
+ *    case vegra::Color::Black: return "Black";
+ *    case vegra::Color::Lime: return "Lime";
+ *    case vegra::Color::Cyan: return "Cyan";
+ *    case vegra::Color::Aqua: return "Aqua";
+ *    case vegra::Color::Red: return "Red";
+ *    case vegra::Color::Fuschia: return "Fuschia";
+ *    case vegra::Color::Magenta: return "Magenta";
+ *    case vegra::Color::Yellow: return "Yellow";
+ *    case vegra::Color::White: return "White";
  *  }
  *}
  */

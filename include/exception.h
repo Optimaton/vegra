@@ -4,37 +4,37 @@
 #ifndef __EXCEPTION_H__
 #define __EXCEPTION_H__
 
-namespace libsvg {
+namespace vegra {
 
 /// Base Exception
-struct libsvgException : public std::runtime_error {
+struct vegraException : public std::runtime_error {
  public:
- 	explicit libsvgException(const std::string& msg)
+ 	explicit vegraException(const std::string& msg)
  	: std::runtime_error(msg)
  	{}
 };
 
 /// Invalid attrib exception - Throw when invalid attribute is passed to a function
-struct InvalidAttribException : public libsvg::libsvgException {
+struct InvalidAttribException : public vegra::vegraException {
  public:
  	explicit InvalidAttribException(const std::string& msg)
- 	: libsvg::libsvgException("Invalid Attribute: " + msg)
+ 	: vegra::vegraException("Invalid Attribute: " + msg)
  	{}
 }; 
 
 //// Invalid param exception - Throw when invalid paramter is passed to a function
-struct InvalidParamException : public libsvg::libsvgException {
+struct InvalidParamException : public vegra::vegraException {
  public:
  	explicit InvalidParamException(const std::string& msg)
- 	: libsvg::libsvgException("Invalid Param: " + msg)
+ 	: vegra::vegraException("Invalid Param: " + msg)
  	{}
 };  
 
 /// Invalid Type Exception - Throw when a non svg type is passed
-struct InvalidTypeException : public libsvg::libsvgException {
+struct InvalidTypeException : public vegra::vegraException {
   public:
     explicit InvalidTypeException(const std::string& msg)
-    : libsvg::libsvgException("Invalid Type: " + msg)
+    : vegra::vegraException("Invalid Type: " + msg)
     {}
 };
 

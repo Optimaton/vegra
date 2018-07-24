@@ -4,9 +4,9 @@
 #ifndef __RECT_H__
 #define __RECT_H__
 
-namespace libsvg {
+namespace vegra {
 
-using SVGElementList = std::vector<libsvg::SVGElement *>;
+using SVGElementList = std::vector<vegra::SVGElement *>;
 
 struct Rect : SVGElement {
  public:
@@ -14,20 +14,20 @@ struct Rect : SVGElement {
   {}
   inline void add();
 
-  inline void add(libsvg::SVGElement * element) 
+  inline void add(vegra::SVGElement * element) 
   {  
     _elements.push_back(element);  
   }
 
   template <typename... Args>
-  inline void add(libsvg::SVGElement* element, Args... args)
+  inline void add(vegra::SVGElement* element, Args... args)
   {
     _elements.push_back(element);
     add(args...);
   }
 
  inline std::string composeElement()
- { using namespace libsvg;
+ { using namespace vegra;
    return _tagname + 
           ASSIGN(attr::height, STR(_size.height)) +
           ASSIGN(attr::width, STR(_size.width)) +
@@ -44,29 +44,29 @@ struct Rect : SVGElement {
 
   inline void wrapElement()
   {
-   using namespace libsvg;
+   using namespace vegra;
    if (_elements.empty())
      _element = WRAP(composeElement());
    else 
      _element = MULTI_WRAP(_tagname, composeElement(), _elements);
   }
 
-  inline void setPos(libsvg::Position pos)
+  inline void setPos(vegra::Position pos)
   {
     _pos = pos;
   }
 
-  inline void setSize(libsvg::Size size)
+  inline void setSize(vegra::Size size)
   {
     _size = size;
   }
 
-  inline void setStroke(libsvg::Stroke stroke)
+  inline void setStroke(vegra::Stroke stroke)
   {
     _stroke = stroke;  
   }
 
-  inline void setFill(libsvg::Fill fill)
+  inline void setFill(vegra::Fill fill)
   {
     _fill = fill;  
   }
@@ -76,22 +76,22 @@ struct Rect : SVGElement {
     return _elements;  
   }
  
-  inline libsvg::Position getPos()
+  inline vegra::Position getPos()
   {
     return _pos;  
   }
 
-  inline libsvg::Size getSize()
+  inline vegra::Size getSize()
   {
     return _size;  
   }
   
-  inline libsvg::Stroke getStroke()
+  inline vegra::Stroke getStroke()
   {
     return _stroke;  
   }
 
-  inline libsvg::Fill getFill()
+  inline vegra::Fill getFill()
   {
     return _fill;  
   }
@@ -102,10 +102,10 @@ struct Rect : SVGElement {
   }
  protected:
  private:
-  libsvg::Position _pos;
-  libsvg::Size _size;
-  libsvg::Stroke _stroke;
-  libsvg::Fill _fill;
+  vegra::Position _pos;
+  vegra::Size _size;
+  vegra::Stroke _stroke;
+  vegra::Fill _fill;
   SVGElementList _elements;
   std::string _element;
   std::string _tagname;

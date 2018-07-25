@@ -55,7 +55,10 @@ struct SVG : SVGElement {
   {
     _title = _tagname; 
   }
-  
+
+  SVG(std::string svgTitle) : 
+    _tagname("svg"), _title(svgTitle)
+  { }
   /**
    * add
    * This function adds other elements to the wrapping svg tag and also at the 

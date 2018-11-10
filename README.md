@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/raghu-veer/vegra.svg?branch=master)](https://travis-ci.org/raghu-veer/vegra)
+[![Build Status](https://travis-ci.org/Optimaton/vegra.svg?branch=master)](https://travis-ci.org/Optimaton/vegra)
 ## vegra
  A header only wrapper for spitting out svg via c++. 
   It right now only has three elements and few attributes.
